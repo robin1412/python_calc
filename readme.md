@@ -23,7 +23,7 @@ from PyQt5.QtWidgets import QLabel
 from PyQt5.QtWidgets import QWidget
 ```
 - Go to CMD and run python test.py
-If installtion is working this run will not give any error
+If installation is working this run will not give any error
 
 - Now add following lines to check how to create GUI in pyqt
 
@@ -78,7 +78,7 @@ class GUI(QMainWindow):
 ..* clearDisplay
 
 ## 4: Create Model of application
-- Evaluting the Expression
+- Evaluating the Expression
 ```
 def evaluateExpression(expression):
     """Evaluate an expression."""
