@@ -41,19 +41,7 @@ class GUI(QMainWindow):
         
         # Add the display to the general layout
         self.generalLayout.addWidget(self.display)
-    def _createDisplayLED(self):
-        """Create the display."""
-        
-        # Create the display widget
-        self.display = QLineEdit()
-        # Set some display's properties
-        self.display.setFixedHeight(35)
-        self.display.setAlignment(Qt.AlignRight)
-        self.display.setReadOnly(True)
-        
-        # Add the display to the general layout
-        self.generalLayout.addWidget(self.display)
-
+    
     def _createButtons(self):
         """Create the buttons."""
         self.buttons = {}
